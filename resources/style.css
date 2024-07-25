@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    min-width: 790px;
+    height: 100%;
+    
+}
+
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+h2 {
+    font-family: "Montserrat";
+    padding-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+p {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+header li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: azure;
+    text-decoration: none;
+    text-shadow: 2px 2px #000000;
+}
+
+header {
+    background-color: rgb(6, 83, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+footer {
+    background-color: rgb(6, 83, 83);
+    height: 50px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.hr1 {
+    border: none;
+    margin: 0 0px;
+    height: 5px;
+    background: rgb(0, 0, 0);
+}
+
+.hr2 {
+    border: none;
+    margin: 10px 100px;
+    height: 2px;
+    background: rgb(6, 83, 83);
+}
+
+.hr3 {
+    border: none;
+    margin: 10px 100px;
+    height: 4px;
+    background: rgb(0, 0, 0);
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks a:hover {
+    color: rgb(71, 185, 185);
+}
+
+.navlinks2 {
+    list-style: none;
+    width: fit-content;
+    margin: 12px auto;
+
+}
+
+.navlinks2 li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navlinks2 a:hover {
+    color: rgb(71, 185, 185);
+}
+
+.image {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.list {
+    font-weight: 500;
+}
+
+.about {
+    max-width: 1000px;
+    border: 2px solid black;
+    width: 67.5%;
+    margin: 0 auto;
+}
+
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 50px;
+}
+
+.fl {
+    width: 40%;
+}
+
+.project {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subproject_main {
+    margin: 10px auto;
+    width: 75%;
+    
+}
+
+.subproject {
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+.project-img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.supportingimg {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#projects {
+    font-size: 46px;
+}
